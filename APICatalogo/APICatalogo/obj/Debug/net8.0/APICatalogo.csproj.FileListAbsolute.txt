@@ -1,0 +1,315 @@
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\appsettings.Development.json
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\appsettings.json
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.exe
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.deps.json
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.runtimeconfig.json
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.pdb
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.csproj.AssemblyReference.cache
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.AssemblyInfoInputs.cache
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.AssemblyInfo.cs
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.csproj.CoreCompileInputs.cache
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.MvcApplicationPartsAssemblyInfo.cs
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.MvcApplicationPartsAssemblyInfo.cache
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets.build.json
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets.development.json
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets\msbuild.APICatalogo.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets\msbuild.build.APICatalogo.props
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APICatalogo.props
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APICatalogo.props
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\scopedcss\bundle\APICatalogo.styles.css
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatal.C7776A93.Up2Date
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\refint\APICatalogo.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.pdb
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.genruntimeconfig.cache
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\ref\APICatalogo.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Humanizer.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\MySqlConnector.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\System.CodeDom.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sata\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\appsettings.Development.json
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\appsettings.json
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.exe
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.deps.json
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.runtimeconfig.json
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.pdb
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Humanizer.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\MySqlConnector.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\System.CodeDom.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.csproj.AssemblyReference.cache
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.AssemblyInfoInputs.cache
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.AssemblyInfo.cs
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.csproj.CoreCompileInputs.cache
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.MvcApplicationPartsAssemblyInfo.cs
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.MvcApplicationPartsAssemblyInfo.cache
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets.build.json
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets.development.json
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets\msbuild.APICatalogo.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets\msbuild.build.APICatalogo.props
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APICatalogo.props
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APICatalogo.props
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\scopedcss\bundle\APICatalogo.styles.css
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatal.C7776A93.Up2Date
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.dll
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\refint\APICatalogo.dll
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.pdb
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.genruntimeconfig.cache
+E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\ref\APICatalogo.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\appsettings.Development.json
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\appsettings.json
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.exe
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.deps.json
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.runtimeconfig.json
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.pdb
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Humanizer.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\MySqlConnector.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\System.CodeDom.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.csproj.AssemblyReference.cache
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.AssemblyInfoInputs.cache
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.AssemblyInfo.cs
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.csproj.CoreCompileInputs.cache
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.MvcApplicationPartsAssemblyInfo.cs
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.MvcApplicationPartsAssemblyInfo.cache
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets.build.json
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets.development.json
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets\msbuild.APICatalogo.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets\msbuild.build.APICatalogo.props
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APICatalogo.props
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APICatalogo.props
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\scopedcss\bundle\APICatalogo.styles.css
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatal.C7776A93.Up2Date
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\refint\APICatalogo.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.pdb
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.genruntimeconfig.cache
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\ref\APICatalogo.dll
