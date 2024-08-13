@@ -58,6 +58,13 @@ namespace APICatalogo.Controllers
         public ActionResult<Categoria> Get(int id)
         {
 
+            throw new Exception("Exceção ao retornar o produto pelo Id");
+            /*string[] teste = null;
+            if (teste.Length > 0)
+            {
+
+            }*/
+
             var categoria = _context.Categorias.AsNoTracking().FirstOrDefault(c => c.CategoriaId == id);
 
             if (categoria is null)
