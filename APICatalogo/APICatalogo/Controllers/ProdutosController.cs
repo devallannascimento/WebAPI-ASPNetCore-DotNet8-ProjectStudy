@@ -11,10 +11,12 @@ namespace APICatalogo.Controllers
     public class ProdutosController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly ILogger<CategoriasController> _logger;
 
-        public ProdutosController(AppDbContext context)
+        public ProdutosController(AppDbContext context, ILogger<CategoriasController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -26,12 +28,12 @@ namespace APICatalogo.Controllers
         [HttpGet("{id:int:min(1)}", Name ="obterProduto")]
         public async Task<ActionResult<Produto>> Get(int id)
         {
-
             var produto = await _context.Produtos.AsNoTracking().FirstOrDefaultAsync(p => p.ProdutoId == id);
 
-            if (produto is null)
+            if (produto == null)
             {
-                return NotFound("Produto não encontrado...");
+                _logger.LogWarning($"Produto com id= {id} não encontrado...");
+                return NotFound($"Produto com id= {id} não encontrado...");
             }
 
             return produto;
@@ -40,26 +42,25 @@ namespace APICatalogo.Controllers
         [HttpPost]
         public ActionResult Post(Produto produto)
         {
-
-            if (produto is null)
+            if (produto == null)
             {
-                return BadRequest();
+                _logger.LogWarning($"Dados inválidos...");
+                return BadRequest("Dados inválidos");
             }
 
             _context.Produtos.Add(produto);
             _context.SaveChanges();
 
-            return new CreatedAtRouteResult("obterProduto",
-                new { id = produto.ProdutoId }, produto);
+            return new CreatedAtRouteResult("obterProduto", new { id = produto.ProdutoId }, produto);
         }
 
         [HttpPut("{id:int}")]
         public ActionResult Put(int id, Produto produto)
         {
-
             if (id != produto.ProdutoId)
             {
-                return BadRequest();
+                _logger.LogWarning($"Dados inválidos...");
+                return BadRequest("Dados inválidos");
             }
 
             _context.Entry(produto).State = EntityState.Modified;
@@ -71,12 +72,12 @@ namespace APICatalogo.Controllers
         [HttpDelete("{id:int}")]
         public ActionResult Delete(int id)
         {
-
             var produto = _context.Produtos.FirstOrDefault(p => p.ProdutoId == id);
 
-            if (produto is null)
+            if (produto == null)
             {
-                return NotFound();
+                _logger.LogWarning($"Produto com id= {id} não encontrado...");
+                return NotFound($"Produto com id= {id} não encontrado...");
             }
 
             _context.Produtos.Remove(produto);
@@ -84,6 +85,5 @@ namespace APICatalogo.Controllers
 
             return Ok(produto);
         }
-
     }
 }
