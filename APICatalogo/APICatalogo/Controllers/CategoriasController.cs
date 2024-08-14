@@ -1,4 +1,5 @@
 ﻿using APICatalogo.Context;
+using APICatalogo.FIlters;
 using APICatalogo.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -35,35 +36,38 @@ namespace APICatalogo.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Categoria>> Get()
+        public async Task<ActionResult<IEnumerable<Categoria>>> Get()
         {
             try
             {
-                return _context.Categorias.AsNoTracking().ToList();
+                return await _context.Categorias.AsNoTracking().ToListAsync();
             }
             catch (Exception)
             {
-
                 throw;
             }
         }
 
         [HttpGet("produtos")]
-        public ActionResult<IEnumerable<Categoria>> GetCategoriasProdutos()
+        [ServiceFilter(typeof(ApiLoggingFilter))]
+        public async Task<ActionResult<IEnumerable<Categoria>>> GetCategoriasProdutos()
         {
-            return _context.Categorias.AsNoTracking().Include(p => p.Produtos).ToList(); ;
+            try
+            {
+                return await _context.Categorias.AsNoTracking().Include(p => p.Produtos).ToListAsync();
+            }
+            catch (Exception)
+            {
+                return StatusCode(
+                    StatusCodes.Status500InternalServerError,
+                    "Ocorreu um problema ao tratar a sua solicitação."
+                    );
+            }
         }
 
         [HttpGet("{id:int}", Name = "obterCategoria")]
         public ActionResult<Categoria> Get(int id)
         {
-
-            throw new Exception("Exceção ao retornar o produto pelo Id");
-            /*string[] teste = null;
-            if (teste.Length > 0)
-            {
-
-            }*/
 
             var categoria = _context.Categorias.AsNoTracking().FirstOrDefault(c => c.CategoriaId == id);
 
