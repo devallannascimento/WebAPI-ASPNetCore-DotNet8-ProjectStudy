@@ -13,16 +13,15 @@ public class Produto : IValidatableObject
 
     [Required]
     [StringLength(
-        20, 
+        80, 
         ErrorMessage = "O nome deve ter entre 5 e 20 caracteres",
         MinimumLength = 5
     )]
-    //[PrimeiraLetraMaiuscula]
     public string? Nome { get; set; }
 
     [Required]
     [StringLength(
-        30,
+        300,
         ErrorMessage = "A descrição deve ter no máximo {1} caracteres"
     )]
     public string? Descricao { get; set; }
