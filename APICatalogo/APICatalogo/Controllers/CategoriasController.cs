@@ -1,10 +1,6 @@
-﻿using APICatalogo.Context;
-using APICatalogo.FIlters;
-using APICatalogo.Models;
+﻿using APICatalogo.Models;
 using APICatalogo.Repositories;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace APICatalogo.Controllers
 {
@@ -12,19 +8,17 @@ namespace APICatalogo.Controllers
     [ApiController]
     public class CategoriasController : ControllerBase
     {
-        private readonly ICategoriaRepository _repository;
-        private readonly ILogger<CategoriasController> _logger;
+        private readonly IRepository<Categoria> _repository;
 
-        public CategoriasController(ICategoriaRepository repository, ILogger<CategoriasController> logger)
+        public CategoriasController(IRepository<Categoria> repository)
         {
             _repository = repository;
-            _logger = logger;
         }
 
         [HttpGet]
         public ActionResult<IEnumerable<Categoria>> Get()
         {
-            var categorias = _repository.GetCategorias();
+            var categorias = _repository.GetAll();
             return Ok(categorias);
         }
 
@@ -32,12 +26,11 @@ namespace APICatalogo.Controllers
         public ActionResult<Categoria> Get(int id)
         {
 
-            var categoria = _repository.GetCategoria(id);
+            var categoria = _repository.Get(c => c.CategoriaId == id);
 
             if (categoria == null)
             {
-                _logger.LogWarning($"Categoria com id = {id} não encontrada...");
-                return NotFound($"Categoria com id = {id} não encontrada...");
+                return NotFound($"Categoria com id = {id} não encontrada");
             }
 
             return Ok(categoria);
@@ -49,7 +42,6 @@ namespace APICatalogo.Controllers
 
             if (categoria == null)
             {
-                _logger.LogWarning("Dados inválidos...");
                 return BadRequest("Dados inválidos");
             }
 
@@ -63,7 +55,6 @@ namespace APICatalogo.Controllers
         {
             if (id != categoria.CategoriaId)
             {
-                _logger.LogWarning("Dados inválidos...");
                 return BadRequest("Dados inválidos");
             }
 
@@ -74,15 +65,14 @@ namespace APICatalogo.Controllers
         [HttpDelete("{id:int}")]
         public ActionResult Delete(int id)
         {
-            var categoria = _repository.GetCategoria(id);
+            var categoria = _repository.Get(c => c.CategoriaId == id);
 
             if (categoria == null)
             {
-                _logger.LogWarning($"Categoria com id ={id} não encontrada...");
-                return NotFound($"Categoria com id ={id} não encontrada...");
+                return NotFound($"Categoria com id ={id} não encontrada");
             }
 
-            var categoriaExcluida = _repository.Delete(id);
+            var categoriaExcluida = _repository.Delete(categoria);
             return Ok(categoriaExcluida);
         }
     }

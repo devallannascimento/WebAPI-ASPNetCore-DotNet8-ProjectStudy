@@ -117,3 +117,79 @@ SELECT ROW_COUNT();
 Information: 20101 = Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
 SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
 FROM `Produtos` AS `p`
+Information: 14 = Now listening on: https://localhost:7044
+Information: 14 = Now listening on: http://localhost:5041
+Information: 0 = Application started. Press Ctrl+C to shut down.
+Information: 0 = Hosting environment: Development
+Information: 0 = Content root path: E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo
+Information: 20101 = Executed DbCommand (31ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 = Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 = Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 = Executed DbCommand (23ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 30), @p3='?' (DbType = Single), @p4='?' (Size = 20), @p5='?' (Size = 20), @p6='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Produtos` (`CategoriaId`, `DataCadastro`, `Descricao`, `Estoque`, `ImagemUrl`, `Nome`, `Preco`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT `ProdutoId`
+FROM `Produtos`
+WHERE ROW_COUNT() = 1 AND `ProdutoId` = LAST_INSERT_ID();
+Information: 14 = Now listening on: https://localhost:7044
+Information: 14 = Now listening on: http://localhost:5041
+Information: 0 = Application started. Press Ctrl+C to shut down.
+Information: 0 = Hosting environment: Development
+Information: 0 = Content root path: E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo
+Information: 14 = Now listening on: https://localhost:7044
+Information: 14 = Now listening on: http://localhost:5041
+Information: 0 = Application started. Press Ctrl+C to shut down.
+Information: 0 = Hosting environment: Development
+Information: 0 = Content root path: E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo
+Information: 14 = Now listening on: https://localhost:7044
+Information: 14 = Now listening on: http://localhost:5041
+Information: 0 = Application started. Press Ctrl+C to shut down.
+Information: 0 = Hosting environment: Development
+Information: 0 = Content root path: E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo
+Information: 20101 = Executed DbCommand (20ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 30), @p3='?' (DbType = Single), @p4='?' (Size = 20), @p5='?' (Size = 20), @p6='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Produtos` (`CategoriaId`, `DataCadastro`, `Descricao`, `Estoque`, `ImagemUrl`, `Nome`, `Preco`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT `ProdutoId`
+FROM `Produtos`
+WHERE ROW_COUNT() = 1 AND `ProdutoId` = LAST_INSERT_ID();
+Information: 14 = Now listening on: https://localhost:7044
+Information: 14 = Now listening on: http://localhost:5041
+Information: 0 = Application started. Press Ctrl+C to shut down.
+Information: 0 = Hosting environment: Development
+Information: 0 = Content root path: E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo
+Information: 20101 = Executed DbCommand (17ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 30), @p3='?' (DbType = Single), @p4='?' (Size = 20), @p5='?' (Size = 20), @p6='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Produtos` (`CategoriaId`, `DataCadastro`, `Descricao`, `Estoque`, `ImagemUrl`, `Nome`, `Preco`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT `ProdutoId`
+FROM `Produtos`
+WHERE ROW_COUNT() = 1 AND `ProdutoId` = LAST_INSERT_ID();
+Information: 20101 = Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 = Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 = Now listening on: https://localhost:7044
+Information: 14 = Now listening on: http://localhost:5041
+Information: 0 = Application started. Press Ctrl+C to shut down.
+Information: 0 = Hosting environment: Development
+Information: 0 = Content root path: E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo
+Information: 20101 = Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 = Executed DbCommand (18ms) [Parameters=[@p7='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 30), @p3='?' (DbType = Single), @p4='?' (Size = 20), @p5='?' (Size = 20), @p6='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Produtos` SET `CategoriaId` = @p0, `DataCadastro` = @p1, `Descricao` = @p2, `Estoque` = @p3, `ImagemUrl` = @p4, `Nome` = @p5, `Preco` = @p6
+WHERE `ProdutoId` = @p7;
+SELECT ROW_COUNT();
+Information: 20101 = Executed DbCommand (1ms) [Parameters=[@p7='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 30), @p3='?' (DbType = Single), @p4='?' (Size = 20), @p5='?' (Size = 20), @p6='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Produtos` SET `CategoriaId` = @p0, `DataCadastro` = @p1, `Descricao` = @p2, `Estoque` = @p3, `ImagemUrl` = @p4, `Nome` = @p5, `Preco` = @p6
+WHERE `ProdutoId` = @p7;
+SELECT ROW_COUNT();
