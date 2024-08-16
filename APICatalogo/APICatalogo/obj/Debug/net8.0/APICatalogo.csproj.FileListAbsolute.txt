@@ -314,3 +314,4 @@ E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalog
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.genruntimeconfig.cache
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\ref\APICatalogo.dll
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.sourcelink.json
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\AutoMapper.dll

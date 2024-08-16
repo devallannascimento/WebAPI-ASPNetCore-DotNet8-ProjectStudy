@@ -1,5 +1,5 @@
 using APICatalogo.Context;
-using APICatalogo.Extensions;
+using APICatalogo.DTOs.Mappings;
 using APICatalogo.FIlters;
 using APICatalogo.Logging;
 using APICatalogo.Repositories;
@@ -45,6 +45,8 @@ builder.Logging.AddProvider(new CustomLoggerProvider(new CustomLoggerProviderCon
     LogLevel = LogLevel.Information
 }));
 
+builder.Services.AddAutoMapper(typeof(DTOMappingProfile));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -52,7 +54,6 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-    app.ConfigureExcepitionHandler();
 }
 
 app.UseHttpsRedirection();

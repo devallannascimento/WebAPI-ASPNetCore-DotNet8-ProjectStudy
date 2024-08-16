@@ -2,6 +2,7 @@
 using APICatalogo.DTOs.Mappings;
 using APICatalogo.Models;
 using APICatalogo.Repositories;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 
 namespace APICatalogo.Controllers
@@ -11,10 +12,12 @@ namespace APICatalogo.Controllers
     public class CategoriasController : ControllerBase
     {
         private readonly IUnitOfWork _uof;
+        private readonly IMapper _mapper;
 
-        public CategoriasController(IUnitOfWork uof)
+        public CategoriasController(IUnitOfWork uof, IMapper mapper)
         {
             _uof = uof;
+            _mapper = mapper;
         }
 
         [HttpGet]
@@ -27,7 +30,7 @@ namespace APICatalogo.Controllers
                 return NotFound("Não existem categorias");
             }
 
-            var categoriasDto = categorias.ToCategoriaDTOList();
+            var categoriasDto = _mapper.Map<IEnumerable<CategoriaDTO>>(categorias);
 
             return Ok(categoriasDto);
         }
@@ -43,7 +46,7 @@ namespace APICatalogo.Controllers
                 return NotFound($"Categoria com id = {id} não encontrada");
             }
 
-            var categoriaDto = categoria.ToCategoriaDTO();
+            var categoriaDto = _mapper.Map<CategoriaDTO>(categoria);
 
             return Ok(categoriaDto);
         }
@@ -59,10 +62,10 @@ namespace APICatalogo.Controllers
 
             var categoria = categoriaDto.ToCategoria();
 
-            var categoriaCriada = _uof.CategoriaRepository.Create(categoria);
+            var novaCategoria = _uof.CategoriaRepository.Create(categoria);
             _uof.Commit();
 
-            var novaCategoriaDto = categoria.ToCategoriaDTO();
+            var novaCategoriaDto = _mapper.Map<CategoriaDTO>(novaCategoria);
 
             return new CreatedAtRouteResult("ObterCategoria", new { id = novaCategoriaDto.CategoriaId }, novaCategoriaDto);
         }
@@ -77,12 +80,12 @@ namespace APICatalogo.Controllers
 
             var categoria = categoriaDto.ToCategoria();
 
-            var categoriaAtualizadaDto = _uof.CategoriaRepository.Update(categoria);
+            var categoriaAtualizada = _uof.CategoriaRepository.Update(categoria);
             _uof.Commit();
 
-            var novaCategoriaDto = categoria.ToCategoriaDTO();
+            var categoriaAtualizadaDto = _mapper.Map<CategoriaDTO>(categoriaAtualizada);
 
-            return Ok(novaCategoriaDto);
+            return Ok(categoriaAtualizadaDto);
         }
 
         [HttpDelete("{id:int}")]
@@ -98,7 +101,7 @@ namespace APICatalogo.Controllers
             var categoriaExcluida = _uof.CategoriaRepository.Delete(categoria);
             _uof.Commit();
 
-            var categoriaExcluidaDto = categoria.ToCategoriaDTO();
+            var categoriaExcluidaDto = _mapper.Map<CategoriaDTO>(categoriaExcluida);
 
             return Ok(categoriaExcluidaDto);
         }
