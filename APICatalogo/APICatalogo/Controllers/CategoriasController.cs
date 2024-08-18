@@ -60,7 +60,7 @@ namespace APICatalogo.Controllers
                 return BadRequest("Dados inválidos");
             }
 
-            var categoria = categoriaDto.ToCategoria();
+            var categoria = _mapper.Map<Categoria>(categoriaDto);
 
             var novaCategoria = _uof.CategoriaRepository.Create(categoria);
             _uof.Commit();
@@ -78,7 +78,7 @@ namespace APICatalogo.Controllers
                 return BadRequest("Dados inválidos");
             }
 
-            var categoria = categoriaDto.ToCategoria();
+            var categoria = _mapper.Map<Categoria>(categoriaDto);
 
             var categoriaAtualizada = _uof.CategoriaRepository.Update(categoria);
             _uof.Commit();

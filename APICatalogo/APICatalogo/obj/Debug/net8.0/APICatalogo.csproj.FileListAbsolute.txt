@@ -208,6 +208,14 @@ E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\refint\APICatalogo.dll
 E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.pdb
 E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.genruntimeconfig.cache
 E:\Programação\APICatalogo\APICatalogo\obj\Debug\net8.0\ref\APICatalogo.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.csproj.AssemblyReference.cache
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.AssemblyInfoInputs.cache
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.AssemblyInfo.cs
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.csproj.CoreCompileInputs.cache
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.MvcApplicationPartsAssemblyInfo.cs
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.MvcApplicationPartsAssemblyInfo.cache
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.sourcelink.json
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\appsettings.Development.json
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\appsettings.json
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.exe
@@ -215,7 +223,10 @@ E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalog
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.runtimeconfig.json
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.dll
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.pdb
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\AutoMapper.dll
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Humanizer.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -230,6 +241,8 @@ E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalog
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.OpenApi.dll
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Mono.TextTemplating.dll
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\MySqlConnector.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -292,13 +305,6 @@ E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalog
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.csproj.AssemblyReference.cache
-E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.GeneratedMSBuildEditorConfig.editorconfig
-E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.AssemblyInfoInputs.cache
-E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.AssemblyInfo.cs
-E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.csproj.CoreCompileInputs.cache
-E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.MvcApplicationPartsAssemblyInfo.cs
-E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.MvcApplicationPartsAssemblyInfo.cache
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets.build.json
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets.development.json
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets\msbuild.APICatalogo.Microsoft.AspNetCore.StaticWebAssets.props
@@ -313,5 +319,3 @@ E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalog
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.pdb
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.genruntimeconfig.cache
 E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\ref\APICatalogo.dll
-E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.sourcelink.json
-E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo\bin\Debug\net8.0\AutoMapper.dll
