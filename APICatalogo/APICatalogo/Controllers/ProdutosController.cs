@@ -44,26 +44,19 @@ namespace APICatalogo.Controllers
         {
             var produtos = _uof.ProdutoRepository.GetProdutos(produtosParameters);
 
-            if (produtos == null)
-            {
-                return NotFound();
-            }
+            return ObterProdutos(produtos);
+        }
 
-            var metadada = new
-            {
-                produtos.TotalCount,
-                produtos.PageSize,
-                produtos.CurrentPage,
-                produtos.TotalPages,
-                produtos.HasNext,
-                produtos.HasPrevius
-            };
 
-            Response.Headers.Append("X-Pagination", JsonConvert.SerializeObject(metadada));
+        [HttpGet("filter/preco/pagination")]
+        public ActionResult<IEnumerable<ProdutoDTO>> GetProdutosFilterPreco(
+            [FromQuery] ProdutosFiltroPreco produtosFilterParameters
+            )
+        {
+            var produtos = _uof.ProdutoRepository.GetProdutosFiltroPreco(produtosFilterParameters);
 
-            var produtosDto = _mapper.Map<IEnumerable<ProdutoDTO>>(produtos);
+            return ObterProdutos(produtos);
 
-            return Ok(produtosDto);
         }
 
         [HttpGet]
@@ -185,5 +178,26 @@ namespace APICatalogo.Controllers
 
             return Ok(produtoDeletadoDto);
         }
+
+        private ActionResult<IEnumerable<ProdutoDTO>> ObterProdutos(PagedList<Produto> produtos)
+        {
+            var metadada = new
+            {
+                produtos.TotalCount,
+                produtos.PageSize,
+                produtos.CurrentPage,
+                produtos.TotalPages,
+                produtos.HasNext,
+                produtos.HasPrevius
+            };
+
+            Response.Headers.Append("X-Pagination", JsonConvert.SerializeObject(metadada));
+
+            var produtosDto = _mapper.Map<IEnumerable<ProdutoDTO>>(produtos);
+
+            return Ok(produtosDto);
+        }
+
     }
+
 }
