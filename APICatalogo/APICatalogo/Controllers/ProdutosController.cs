@@ -23,9 +23,9 @@ namespace APICatalogo.Controllers
         }
 
         [HttpGet("produtos/{id}")]
-        public ActionResult<IEnumerable<ProdutoDTO>> GetProdutosCategoria(int id)
+        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> GetProdutosCategoria(int id)
         {
-            var produtos = _uof.ProdutoRepository.GetProdutosPorCategoria(id);
+            var produtos = await _uof.ProdutoRepository.GetProdutosPorCategoriaAsync(id);
 
             if (produtos == null)
             {
@@ -38,145 +38,25 @@ namespace APICatalogo.Controllers
         }
 
         [HttpGet("pagination")]
-        public ActionResult<IEnumerable<ProdutoDTO>> Get(
+        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> Get(
             [FromQuery] ProdutosParameters produtosParameters
             )
         {
-            var produtos = _uof.ProdutoRepository.GetProdutos(produtosParameters);
+            var produtos = await _uof.ProdutoRepository.GetProdutosAsync(produtosParameters);
 
             return ObterProdutos(produtos);
         }
 
 
         [HttpGet("filter/preco/pagination")]
-        public ActionResult<IEnumerable<ProdutoDTO>> GetProdutosFilterPreco(
+        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> GetProdutosFilterPreco(
             [FromQuery] ProdutosFiltroPreco produtosFilterParameters
             )
         {
-            var produtos = _uof.ProdutoRepository.GetProdutosFiltroPreco(produtosFilterParameters);
+            var produtos = await _uof.ProdutoRepository.GetProdutosFiltroPrecoAsync(produtosFilterParameters);
 
             return ObterProdutos(produtos);
 
-        }
-
-        [HttpGet]
-        public ActionResult<IEnumerable<ProdutoDTO>> Get()
-        {
-            var produtos = _uof.ProdutoRepository.GetAll();
-
-            if (produtos == null)
-            {
-                return NotFound();
-            }
-
-            var produtosDto = _mapper.Map<IEnumerable<ProdutoDTO>>(produtos);
-
-            return Ok(produtosDto);
-        }
-
-        [HttpGet("{id:int:min(1)}", Name = "obterProduto")]
-        public ActionResult<ProdutoDTO> Get(int id)
-        {
-            var produto = _uof.ProdutoRepository.Get(p => p.ProdutoId == id);
-
-            if (produto == null)
-            {
-                return NotFound($"Produto com id = {id} não encontrado");
-            }
-
-            var produtoDto = _mapper.Map<ProdutoDTO>(produto);
-            return Ok(produtoDto);
-        }
-
-        [HttpPost]
-        public ActionResult<ProdutoDTO> Post(ProdutoDTO produtoDto)
-        {
-            if (produtoDto == null)
-            {
-                return BadRequest("Dados inválidos");
-            }
-
-            var produto = _mapper.Map<Produto>(produtoDto);
-
-            var novoProduto = _uof.ProdutoRepository.Create(produto);
-            _uof.Commit();
-
-            var novoProdutoDto = _mapper.Map<ProdutoDTO>(novoProduto);
-
-            return new CreatedAtRouteResult("obterProduto", new { id = novoProdutoDto.ProdutoId }, novoProdutoDto);
-        }
-
-        [HttpPatch("{id}/UpdatePartial")]
-        public ActionResult<ProdutoDTOUpdateResponse> Patch(int id,
-        JsonPatchDocument<ProdutoDTOUpdateRequest> patchProdutoDto)
-        {
-            //valida input 
-            if (patchProdutoDto == null || id <= 0)
-                return BadRequest();
-
-            //obtem o produto pelo Id
-            var produto = _uof.ProdutoRepository.Get(c => c.ProdutoId == id);
-
-            //se não econtrou retorna
-            if (produto == null)
-                return NotFound();
-
-            //mapeia produto para ProdutoDTOUpdateRequest
-            var produtoUpdateRequest = _mapper.Map<ProdutoDTOUpdateRequest>(produto);
-
-            //aplica as alterações definidas no documento JSON Patch ao objeto ProdutoDTOUpdateRequest
-            patchProdutoDto.ApplyTo(produtoUpdateRequest, ModelState);
-
-            if (!ModelState.IsValid || !TryValidateModel(produtoUpdateRequest))
-                return BadRequest(ModelState);
-
-            // Mapeia as alterações de volta para a entidade Produto
-            _mapper.Map(produtoUpdateRequest, produto);
-
-            // Atualiza a entidade no repositório
-            _uof.ProdutoRepository.Update(produto);
-            // Salve as alterações no banco de dados
-            _uof.Commit();
-
-            //retorna ProdutoDTOUpdateResponse
-            return Ok(_mapper.Map<ProdutoDTOUpdateResponse>(produto));
-        }
-
-
-        [HttpPut("{id:int}")]
-        public ActionResult<ProdutoDTO> Put(int id, ProdutoDTO produtoDto)
-        {
-            if (id != produtoDto.ProdutoId)
-            {
-                return BadRequest("Dados inválidos");
-            }
-
-            var produto = _mapper.Map<Produto>(produtoDto);
-
-            var produtoAtualizado = _uof.ProdutoRepository.Update(produto);
-            _uof.Commit();
-
-            var produtoAtualizadoDto = _mapper.Map<ProdutoDTO>(produto);
-
-            return Ok(produtoAtualizadoDto);
-        }
-
-        [HttpDelete("{id:int}")]
-        public ActionResult<ProdutoDTO> Delete(int id)
-        {
-            var produto = _uof.ProdutoRepository.Get(p => p.ProdutoId == id);
-
-            if (produto == null)
-            {
-                return NotFound($"Produto com id = {id} não encontrado");
-            }
-
-            var produtoDeletado = _uof.ProdutoRepository.Delete(produto);
-            _uof.Commit();
-
-            var produtoDeletadoDto = _mapper.Map<ProdutoDTO>(produtoDeletado);
-
-            return Ok(produtoDeletadoDto);
         }
 
         private ActionResult<IEnumerable<ProdutoDTO>> ObterProdutos(PagedList<Produto> produtos)
@@ -198,6 +78,125 @@ namespace APICatalogo.Controllers
             return Ok(produtosDto);
         }
 
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> Get()
+        {
+            var produtos = await _uof.ProdutoRepository.GetAllAsync();
+
+            if (produtos == null)
+            {
+                return NotFound();
+            }
+
+            var produtosDto = _mapper.Map<IEnumerable<ProdutoDTO>>(produtos);
+
+            return Ok(produtosDto);
+        }
+
+        [HttpGet("{id:int:min(1)}", Name = "obterProduto")]
+        public async Task<ActionResult<ProdutoDTO>> Get(int id)
+        {
+            var produto = await _uof.ProdutoRepository.GetAsync(p => p.ProdutoId == id);
+
+            if (produto == null)
+            {
+                return NotFound($"Produto com id = {id} não encontrado");
+            }
+
+            var produtoDto = _mapper.Map<ProdutoDTO>(produto);
+            return Ok(produtoDto);
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<ProdutoDTO>> Post(ProdutoDTO produtoDto)
+        {
+            if (produtoDto == null)
+            {
+                return BadRequest("Dados inválidos");
+            }
+
+            var produto = _mapper.Map<Produto>(produtoDto);
+
+            var novoProduto = _uof.ProdutoRepository.Create(produto);
+            await _uof.CommitAsync();
+
+            var novoProdutoDto = _mapper.Map<ProdutoDTO>(novoProduto);
+
+            return new CreatedAtRouteResult("obterProduto", new { id = novoProdutoDto.ProdutoId }, novoProdutoDto);
+        }
+
+        [HttpPatch("{id}/UpdatePartial")]
+        public async Task<ActionResult<ProdutoDTOUpdateResponse>> Patch(int id,
+        JsonPatchDocument<ProdutoDTOUpdateRequest> patchProdutoDto)
+        {
+            //valida input 
+            if (patchProdutoDto == null || id <= 0)
+                return BadRequest();
+
+            //obtem o produto pelo Id
+            var produto = await _uof.ProdutoRepository.GetAsync(c => c.ProdutoId == id);
+
+            //se não econtrou retorna
+            if (produto == null)
+                return NotFound();
+
+            //mapeia produto para ProdutoDTOUpdateRequest
+            var produtoUpdateRequest = _mapper.Map<ProdutoDTOUpdateRequest>(produto);
+
+            //aplica as alterações definidas no documento JSON Patch ao objeto ProdutoDTOUpdateRequest
+            patchProdutoDto.ApplyTo(produtoUpdateRequest, ModelState);
+
+            if (!ModelState.IsValid || !TryValidateModel(produtoUpdateRequest))
+                return BadRequest(ModelState);
+
+            // Mapeia as alterações de volta para a entidade Produto
+            _mapper.Map(produtoUpdateRequest, produto);
+
+            // Atualiza a entidade no repositório
+            _uof.ProdutoRepository.Update(produto);
+            // Salve as alterações no banco de dados
+            await _uof.CommitAsync();
+
+            //retorna ProdutoDTOUpdateResponse
+            return Ok(_mapper.Map<ProdutoDTOUpdateResponse>(produto));
+        }
+
+
+        [HttpPut("{id:int}")]
+        public async Task<ActionResult<ProdutoDTO>> Put(int id, ProdutoDTO produtoDto)
+        {
+            if (id != produtoDto.ProdutoId)
+            {
+                return BadRequest("Dados inválidos");
+            }
+
+            var produto = _mapper.Map<Produto>(produtoDto);
+
+            var produtoAtualizado = _uof.ProdutoRepository.Update(produto);
+            await _uof.CommitAsync();
+
+            var produtoAtualizadoDto = _mapper.Map<ProdutoDTO>(produto);
+
+            return Ok(produtoAtualizadoDto);
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult<ProdutoDTO>> Delete(int id)
+        {
+            var produto = await _uof.ProdutoRepository.GetAsync(p => p.ProdutoId == id);
+
+            if (produto == null)
+            {
+                return NotFound($"Produto com id = {id} não encontrado");
+            }
+
+            var produtoDeletado = _uof.ProdutoRepository.Delete(produto);
+            await _uof.CommitAsync();
+
+            var produtoDeletadoDto = _mapper.Map<ProdutoDTO>(produtoDeletado);
+
+            return Ok(produtoDeletadoDto);
+        }
     }
 
 }
