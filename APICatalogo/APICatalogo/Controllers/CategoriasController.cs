@@ -6,10 +6,11 @@ using APICatalogo.Repositories;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using X.PagedList;
 
 namespace APICatalogo.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class CategoriasController : ControllerBase
     {
@@ -60,29 +61,10 @@ namespace APICatalogo.Controllers
         {
             var categorias = await _uof.CategoriaRepository.GetCategoriasAsync(categoriasParameters);
 
-            if (categorias == null)
-            {
-                return NotFound();
-            }
-
-            var metadada = new
-            {
-                categorias.TotalCount,
-                categorias.PageSize,
-                categorias.CurrentPage,
-                categorias.TotalPages,
-                categorias.HasNext,
-                categorias.HasPrevius
-            };
-
-            Response.Headers.Append("X-Pagination", JsonConvert.SerializeObject(metadada));
-
-            var categoriasDto = _mapper.Map<IEnumerable<CategoriaDTO>>(categorias);
-
-            return Ok(categoriasDto);
+            return ObterCategorias(categorias);
         }
 
-        [HttpGet("filter/preco/pagination")]
+        [HttpGet("filter/nome/pagination")]
         public async Task<ActionResult<IEnumerable<CategoriaDTO>>> GetCategoriasFiltradas(
             [FromQuery] CategoriasFiltroNome categoriasFiltro
             )
@@ -92,16 +74,16 @@ namespace APICatalogo.Controllers
             return ObterCategorias(categoriasFiltradas);
         }
 
-        private ActionResult<IEnumerable<CategoriaDTO>> ObterCategorias(PagedList<Categoria> categorias)
+        private ActionResult<IEnumerable<CategoriaDTO>> ObterCategorias(IPagedList<Categoria> categorias)
         {
             var metadada = new
             {
-                categorias.TotalCount,
+                categorias.Count,
                 categorias.PageSize,
-                categorias.CurrentPage,
-                categorias.TotalPages,
-                categorias.HasNext,
-                categorias.HasPrevius
+                categorias.PageCount,
+                categorias.TotalItemCount,
+                categorias.HasNextPage,
+                categorias.HasPreviousPage
             };
 
             Response.Headers.Append("X-Pagination", JsonConvert.SerializeObject(metadada));
