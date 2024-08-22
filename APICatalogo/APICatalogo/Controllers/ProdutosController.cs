@@ -3,6 +3,7 @@ using APICatalogo.Models;
 using APICatalogo.Pagination;
 using APICatalogo.Repositories;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -21,6 +22,22 @@ namespace APICatalogo.Controllers
         {
             _uof = uof;
             _mapper = mapper;
+        }
+
+        [HttpGet]
+        [Authorize(Policy = "UserOnly")]
+        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> Get()
+        {
+            var produtos = await _uof.ProdutoRepository.GetAllAsync();
+
+            if (produtos == null)
+            {
+                return NotFound();
+            }
+
+            var produtosDto = _mapper.Map<IEnumerable<ProdutoDTO>>(produtos);
+
+            return Ok(produtosDto);
         }
 
         [HttpGet("produtos/{id}")]
@@ -79,20 +96,6 @@ namespace APICatalogo.Controllers
             return Ok(produtosDto);
         }
 
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> Get()
-        {
-            var produtos = await _uof.ProdutoRepository.GetAllAsync();
-
-            if (produtos == null)
-            {
-                return NotFound();
-            }
-
-            var produtosDto = _mapper.Map<IEnumerable<ProdutoDTO>>(produtos);
-
-            return Ok(produtosDto);
-        }
 
         [HttpGet("{id:int:min(1)}", Name = "obterProduto")]
         public async Task<ActionResult<ProdutoDTO>> Get(int id)

@@ -1,9 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace APICatalogo.DTOs;
+﻿namespace APICatalogo.DTOs;
 
 public class ResponseDTO
 {
-    public string? StatusCode { get; set; }
+    public string? Status { get; set; }
     public string? Message { get; set; }
 }
