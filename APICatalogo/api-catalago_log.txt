@@ -472,3 +472,13 @@ ALTER TABLE `AspNetUsers` ADD `RefreshTokenExpiryTime` datetime(6) NOT NULL DEFA
 Information: 20101 = Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
 INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
 VALUES ('20240822035518_AjusteApplicationUser', '8.0.8');
+Information: 14 = Now listening on: https://localhost:7044
+Information: 14 = Now listening on: http://localhost:5041
+Information: 0 = Application started. Press Ctrl+C to shut down.
+Information: 0 = Hosting environment: Development
+Information: 0 = Content root path: E:\Programação\Web API ASP .NET Core Essencial (.NET 8)\APICatalogo\APICatalogo
+Information: 20101 = Executed DbCommand (47ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`RefreshToken`, `a`.`RefreshTokenExpiryTime`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1
