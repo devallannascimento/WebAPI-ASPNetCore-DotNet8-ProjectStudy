@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "i8sn1RRaAJPJ4bvm8buGzxaR/puvu+WtScwOKbYTFls=",
+  "Source": "ApiTokenBearer",
+  "BasePath": "_content/ApiTokenBearer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
