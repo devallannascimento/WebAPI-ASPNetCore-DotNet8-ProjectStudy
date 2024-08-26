@@ -7,11 +7,13 @@ using APICatalogo.Repositories;
 using APICatalogo.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 using System.Text.Json.Serialization;
+using System.Threading.RateLimiting;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -106,6 +108,36 @@ builder.Services.AddAuthorization(options =>
         claim.Type == "id" && claim.Value == "allannascimento")|| context.User.IsInRole("SuperAdmin")));
 });
 
+/*builder.Services.AddRateLimiter(rateLimitOptions =>
+{
+    rateLimitOptions.AddFixedWindowLimiter(policyName: "fixedWindow", options =>
+    {
+        options.PermitLimit = 1;
+        options.Window = TimeSpan.FromSeconds(5);
+        options.QueueLimit = 2;
+        options.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+    });
+    rateLimitOptions.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
+});*/
+
+builder.Services.AddRateLimiter(options =>
+{
+    options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
+
+    options.GlobalLimiter = PartitionedRateLimiter.
+                            Create<HttpContext, string>(httpcontext =>
+                            RateLimitPartition.GetFixedWindowLimiter(
+                                partitionKey: httpcontext.User.Identity?.Name ??
+                                httpcontext.Request.Headers.Host.ToString(),
+                                factory: partition => new FixedWindowRateLimiterOptions
+                                {
+                                    AutoReplenishment = true,
+                                    PermitLimit = 2,
+                                    QueueLimit = 0,
+                                    Window = TimeSpan.FromSeconds(10)
+                                }));
+});
+
 builder.Services.AddScoped<ApiLoggingFilter>();
 builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
 builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
@@ -130,6 +162,11 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseRouting();
+
+app.UseRateLimiter();
+
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
